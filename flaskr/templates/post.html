@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block body %}
+<ul class=entries>
+  <li>
+  <h4>{{ post.title }}</h4>
+  {{ post.text }}
+
+  <p style="color:gray; text-align:right">{{ post.created }}</p>
+  </li> 
+</ul>
+{% endblock %}
